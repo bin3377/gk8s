@@ -1,0 +1,19 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+  "metadata": {
+    "name": "busybox-sleep"
+  },
+  "spec": {
+    "containers": [
+      {
+        "args": [
+          "sleep",
+          "30"
+        ],
+        "image": "busybox",
+        "name": "busybox"
+      }
+    ]
+  }
+}

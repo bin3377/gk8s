@@ -1,2 +1,4 @@
 # gk8s
-Generic wrapper of k8s api
+
+A generic wrapper of k8s api code example
+
